@@ -8,6 +8,9 @@ body {
 .hp{
     font-family: 'Nunito', sans-serif;
 }
+.FL{
+    font-family: 'Nunito', sans-serif;
+}
 .hpheader{
     overflow: auto;
 }
@@ -46,7 +49,9 @@ body {
     max-width: 50%;
     overflow: auto;
 }
-.hpmain:after{
+
+/** CLEARFIX stops the floats! **/
+.row:after{
     content: "";
     display: grid;
     clear: both;
@@ -57,9 +62,10 @@ body {
     border:5px solid;
 }
 .hpwg{
-    height: 150px;
-    width: 150px;
-    float:right;
+    background:url(http://pre11.deviantart.net/71ae/th/pre/f/2010/070/3/7/white_glint_logo_by_recksio.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 45px;
 }
 .logo{
     height: 60px;
@@ -94,4 +100,43 @@ h1,h2{
 }
 li{
     margin:5px;
+}
+.image{background:url(http://www.marblemountain.com/wp-content/uploads/2014/12/header_promo.jpg);
+    background-repeat: no-repeat;
+    padding:100px;}
+
+/** Float ALL the column classes **/
+[class*="col-"] {
+    float: left;  }
+
+
+/** Assign widths to column classes **/
+
+.col-1 {width: 8.33%;}
+
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.FL h2{ color: aliceblue;
+    background-color: #ff5050;
+    border:0px;
+    margin:10px;}
+.FL p{
+    margin: 10px;
+}
+.FLcolumn{
+    Margin:5px;
+    border:20px ;}
+.FLimage {width:90%;
+        Height:90%;
+        padding:5px;
 }
