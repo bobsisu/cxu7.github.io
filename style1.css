@@ -128,14 +128,11 @@ li{
 
 .FL h2{ color: aliceblue;
     background-color: #ff5050;
-    border:0px;
-    margin:10px;}
-.FL p{
-    margin: 10px;
-}
+    border: solid;
+    }
 .FLcolumn{
-    Margin:5px;
-    border:20px ;}
+   
+    border:1px ;}
 .FLimage {width:90%;
         Height:90%;
         padding:5px;
