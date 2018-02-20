@@ -1,8 +1,8 @@
 html {
   max-width: 1040px;
   margin: 0 auto;
-  background: #eee; /* Fills the page */
-  position: relative; /* Fix for absolute positioning */
+  background: #eee; 
+  position: relative; 
 }
 * {
   box-sizing: border-box;
@@ -184,14 +184,13 @@ padding: 10px;}
 footer a {
     color:#ffffcc;
 }
-
 .left{ float: left;
     text-align: left;
     padding:15px;
-    width: 25%; }
+    width: 25%;}
 .right{ float: right;
     text-align: right;
-    width: 25%; }
+    width: 25%;}
 
 
 .FLcolumn a{background-color: #ff5050;
