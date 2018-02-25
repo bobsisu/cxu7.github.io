@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout-A</title>
+    <style>
+        /** CLEARFIX stops the floats! **/
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;}
+
+[class*="col-"] {
+    float: left; 
+        display: inline-block;}
+
+/** Assign widths to column classes **/
+
+.col-1 {width: 8.33%;}
+
+.col-2 {width: 16.66%;}
+.col-3 {width: 24%;}
+.col-4 {width: 32.7%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 74%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+        .one{border: 8px solid blue;
+        padding: 1%;
+        height:32em;
+        min-width: 800px;}
+        .col{border:4px solid red;
+        height:10em;}
+        .colu{border:4px solid red;
+        height:31em;
+        }
+       .two{border: 8px solid blue;
+        padding: 1%;
+        height:11em;
+        min-width: 800px;}
+    </style>
+    </head>
+<body>
+    <div class="one">
+    <div class="col-3 colu"></div>
+    <div class="col-8 col"></div>
+    <div class="col-8 col"></div>
+        <div class="col-8 col"></div>
+    </div>
+    
+    <div class="two">
+        <div class="col-3 col"></div>
+        <div class="col-3 col"></div>
+        <div class="col-3 col"></div>
+        <div class="col-3 col"></div>
+    </div>
+    </body>
+</html>

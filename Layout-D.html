@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Layout-D</title>
+    <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+    <style>
+        [class*="col-"] {
+    float: left; 
+        display: inline-block;}
+        
+        .row::after {
+    content: "";
+    clear: both;
+    display: block;}
+        
+        .col-1 {width: 8.33%;}
+
+.col-2 {width: 16.66%;}
+.col-3 {width: 24%;}
+.col-4 {width: 32.7%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 74%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+        
+        body{font-family: 'Neucha', cursive;
+            background-image: url(https://wallup.net/wp-content/uploads/2017/11/10/333568-simple-dark-simple_background-texture-black_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;}
+        
+        .p1{
+            background-image: url(http://www.pngall.com/wp-content/uploads/2016/04/Tomato-PNG-Pic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+        background-size: 20em;
+        height:30em}
+        
+        .big{text-align: center;
+            font-size: 40px;}
+        .small{text-align: center;
+            font-size: 20px;}
+        .col{color:white;
+        }
+        
+        .p2{
+            background-image: url(http://www.benjyehuda.com/wp-content/uploads/2017/07/tomato-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+        background-size: 20em;
+        height:30em}
+        
+        
+        .right{float: right;
+            text-align: center;
+        display: inline-block;}
+        .blank{height:3em;}
+    </style>
+    </head>
+<body>
+    <div class="one row">
+    <div class="col-4 p1 col"></div>
+        <div class="col-4 txt col">
+            <P class="big">WE'D BUY</P>
+            <P class="big">TINNED SALSA</P>
+        <P class="small">BUT WE'RE TOO BUSY</P>
+        <P class="big">CHOPPING</P>
+        <P class="big">TOMATOES</P></div>
+        <div class="col-4 p2 col"></div>
+       
+        </div>
+     <div class="blank"></div>
+    <footer>
+        <div class="right col-4 col">LOGO <img src="https://vignette.wikia.nocookie.net/armoredcore/images/6/65/8119540_m.png/revision/latest?cb=20110107003738" alt="logo" width=150> </div>
+    <div class="right col-4 col">WORTH THE EFFORT</div>
+    
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout-A</title>
+    <style>
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;}
+
+
+
+
+[class*="col-"] {
+    float: left;  }
+
+        body{border: 8px solid blue;
+        padding: 1%;
+        height:11em;}
+        .col{border:4px solid red;
+        height:10em;
+        width:32.5%}
+        
+    </style>
+    </head>
+<body>
+    <div class="col-4 col"></div>
+    <div class="col-4 col"></div>
+    <div class="col-4 col"></div>
+    </body>
+</html>
