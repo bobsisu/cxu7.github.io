@@ -4,7 +4,7 @@ html {
   background: #eee; 
   position: relative; 
 }
-* {
+*{
   box-sizing: border-box;
 }
 /** TO DEFAULT ALL COLUMN CLASSES TO 100% AND FLOAT THEM LEFT **/
@@ -84,7 +84,6 @@ body {
 
 .hpcolumn {
     float: left;
-    max-width: 50%;
     overflow: auto;
 }
 
@@ -111,10 +110,10 @@ body {
     float:right;
 }
 h1,h2{
-    color:#0033cc;
+    color:aliceblue;
     text-align: center;
-    border:3px solid #0033cc;
-    background-color: #ffcc00;
+    border:3px solid #ffffcc;
+    background-color: #ff5050;
 }
 .res{
     text-align: center;
@@ -168,8 +167,8 @@ li{
     background-color: #ff5050;
     border: solid;
     }
-.FLcolumn{
-   
+.FLcolumn p{
+   width:95%;
     border:1px ;}
 .FLimage {width:90%;
         Height:90%;

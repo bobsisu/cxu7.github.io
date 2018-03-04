@@ -12,21 +12,22 @@
         <h1>Sunshine</h1>
         <p>Designed by Chenyang Xu</p>
     </header>
-    <nav class="hpnav hp">
-  <a href="index.html">Home Page</a>
+   <nav class="hpnav hp" id="mytopnav">
+  <a class="active" href="index.html">Home Page</a>
   <a href="resume.html">Resume</a>
   <a href="Favorite%20Locations.html">Favorite Locations</a>
-  <a href="#">Page4</a>
+  <a href="My%20Future.html">My Future</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </nav>
     <div class="row image">
     </div>
    <section>
     <div class="row hp">
-    <div class="hpcolumn hp col-6">
+    <div class="hpcolumn hp col-12 col-d-6">
     <h2>Welcome!</h2>
     <p>This is the Homepage created by Chenyang Xu, master student of Kent State University. This is a student project created for Web Designing course. Instructed by Mr.Landon Kearns. </p>
   </div>
-  <div class="hpcolumn hp col-6">
+  <div class="hpcolumn hp col-12 col-d-6">
     <h2>About Chenyang</h2>
       <div class="row column2">
            <ul class="col-7">
@@ -47,6 +48,15 @@
           <p class="mobilehide ">Designed by Chenyang Xu with <a href="http://brackets.io/"> Brackets, </a>2/4/2018</p>
           <p class="center mobileshow">Email :<a href="mailto:cxu7@kent.edu?Subject=Hello%20again" target="_top">cxu7@kent.edu</a></p>
         </footer>
-   
+    <script>
+function myFunction() {
+    var x = document.getElementById("mytopnav");
+    if (x.className === "hpnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "hpnav";
+    }
+}
+</script>
     </body>
 </html>
